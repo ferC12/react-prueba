@@ -3,7 +3,7 @@ import { Link, Navigate } from 'react-router-dom'
 import { ShoppingCartContext } from '../../Context'
 import Layout from '../../Components/Layout'
 
-function SingIn() {
+function SignIn() {
   const context = useContext(ShoppingCartContext)
   const  [view, setView] = useState('user-info')
   const form = useRef(null)
@@ -135,4 +135,4 @@ function SingIn() {
   )
 }
   
-export default SingIn
+export default SignIn
